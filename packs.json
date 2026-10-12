@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "name": "benchmark-methodology",
+      "description": "Honest benchmarking with TTFF/TTFI/PSS probes",
+      "category": "engineering",
+      "skills": [
+        "benchmark-methodology"
+      ]
+    },
+    {
+      "name": "checkpoint-semantics",
+      "description": "Git-backed checkpoints and rollback composition rules",
+      "category": "engineering",
+      "skills": [
+        "checkpoint-semantics"
+      ]
+    },
+    {
+      "name": "daemon-endpoints",
+      "description": "Adding HTTP endpoints to the persistent daemon: auth, persistence, job lifecycle",
+      "category": "engineering",
+      "skills": [
+        "daemon-endpoints"
+      ]
+    },
+    {
+      "name": "exec-policy",
+      "description": "Subprocess execution through the central exec policy: risk classes, timeouts, output caps",
+      "category": "engineering",
+      "skills": [
+        "exec-policy"
+      ]
+    },
+    {
+      "name": "harness-struggle-recovery",
+      "description": "Agent stall/struggle detection and escalation ladder",
+      "category": "engineering",
+      "skills": [
+        "harness-struggle-recovery"
+      ]
+    },
+    {
+      "name": "mcp-server-authoring",
+      "description": "Authoring MCP servers Mochi can load: stdio/HTTP transports, tool schemas, wiring",
+      "category": "engineering",
+      "skills": [
+        "mcp-server-authoring"
+      ]
+    },
+    {
+      "name": "native-core-port",
+      "description": "Port a TS operation to the Rust native core end-to-end (Rust op, C ABI, napi, TS fallback, parity tests)",
+      "category": "engineering",
+      "skills": [
+        "native-core-port"
+      ]
+    },
+    {
+      "name": "parity-testing",
+      "description": "Differential testing between Rust native ops and TS fallbacks",
+      "category": "engineering",
+      "skills": [
+        "parity-testing"
+      ]
+    },
+    {
+      "name": "provider-registration",
+      "description": "Adding a model provider end-to-end: client, auth, catalog, tests",
+      "category": "engineering",
+      "skills": [
+        "provider-registration"
+      ]
+    },
+    {
+      "name": "secret-redaction",
+      "description": "Extending the secret redaction DFA correctly: new tokens, false positives, test vectors",
+      "category": "engineering",
+      "skills": [
+        "secret-redaction"
+      ]
+    },
+    {
+      "name": "skill-quality-bar",
+      "description": "The quality bar for skills that ship with Mochi",
+      "category": "engineering",
+      "skills": [
+        "skill-quality-bar"
+      ]
+    },
+    {
+      "name": "tui-frame-budget",
+      "description": "TUI rendering discipline: dirty-region rendering, 16ms frame budget, leak guards",
+      "category": "engineering",
+      "skills": [
+        "tui-frame-budget"
+      ]
+    }
+  ]
+}
